@@ -1,0 +1,64 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets.*
+credentials.*
+config.local.*
+
+# Private memory, sessions, logs, and runtime state
+memory/
+memories/
+sessions/
+session_logs/
+exports/
+runtime/
+state/
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+*.log
+
+# Generated or bulky artifacts
+models/
+weights/
+checkpoints/
+generated/
+outputs/
+media/
+vendor/
+node_modules/
+dist/
+build/
+*.pt
+*.pth
+*.safetensors
+*.gguf
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
